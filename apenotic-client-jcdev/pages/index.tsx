@@ -12,11 +12,11 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Apenotic</title>
+        <title>Blackapp - Home</title>
       </Head>
       <main className={styles.main}>
         <h1 className="text-5xl bold text-stone-700">
-          Apenotic
+          Blackbird
         </h1>
 
         {authButton(user)}
